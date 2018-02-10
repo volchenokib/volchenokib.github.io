@@ -1,4 +1,4 @@
-// Отправка запроса на сервер VK
+// Sending a request to the  VK server
 function vkApi(method, options) {
 	if (!options.v) {
 		options.v = '5.68';
@@ -15,7 +15,7 @@ function vkApi(method, options) {
 	});
 }
 
-// Инициализация для VK
+// VK init
 function vkInit() {
 	return new Promise((resolve, reject) => {
 		VK.init({
@@ -32,16 +32,15 @@ function vkInit() {
 	});
 }
 
-// Функция для яндекс карт в которую мы передаем название страны и(или) города и получаем координаты
+// Geocoder
 function geocode(address) {
-	// встроенная в яндекс карты функция для декодирования (название страны, города => координаты)
+
 	return ymaps.geocode(address)
-		// эта функ-я сама возвращает Promise и результат в ввиде списка
 		.then(result => {
 			const points = result.geoObjects.toArray(); // список в массив
-			// если в массиве есть хоть один элемент
+
 			if (points.length) {
-				// берем географические координаты первого элемента массива
+
 				return points[0].geometry.getCoordinates();
 			}
 		});
@@ -49,65 +48,93 @@ function geocode(address) {
 
 let myMap;
 let clusterer;
+let filteredFriends;
 
-// ждем загрузку карты
+//waiting for the map to load
 new Promise(resolve => ymaps.ready(resolve))
 
-	// авторизация источника данных
+	// authorization VK
 	.then(() => vkInit())
 
-	// получаем список друзей и их гео данные
-	.then(() => vkApi('friends.get', { fields: 'city,country' }))
+	// get a list of friends and their data
+	.then(() => vkApi('friends.get', { fields: 'city, country, photo_100' }))
 
-	// инициализация карты
+	// yandex map init
 	.then(friends => {
+		filteredFriends = friends.items.filter(friend => friend.country && friend.country.title);
+		const filteredList = friends.items
+
+			.filter(friend => friend.country && friend.country.title);
+
 		myMap = new ymaps.Map('map', {
-			center: [55.76, 37.64], // Москва
+			center: [55.76, 37.64], // Moscow
 			zoom: 5
 		}, {
 			searchControlProvider: 'yandex#search'
 		});
+
 		clusterer = new ymaps.Clusterer({
-			preset: 'islands#invertedVioletClusterIcons',
+			preset: 'islands#invertedBlueClusterIcons',
 			clusterDisableClickZoom: true,
-			openBalloonOnClick: false
-		}); // настраиваем кластеризацию меток
+			openBalloonOnClick: true
+		});
 
-		myMap.geoObjects.add(clusterer); // добавляем кластеризацию на карту
+		myMap.geoObjects.add(clusterer);
 
-		return friends.items; // пробрасываем список друзей т.к. здесь мы его не используем, а в слудующем шаге он понадобиться
+		return filteredList;
 	})
 
-	// получение адресов и координат
+	// obtaining coordinates
 	.then(friends => {
 		const promises = friends
-			// Отсееваем друзей у которых не указана страна (а значит и город )
+
 			.filter(friend => friend.country && friend.country.title)
 
-			// Получаем названия страны и города у оставшихся
+
 			.map(friend => {
-				let parts = friend.country.title; // Россия
+			let place = friend.country.title;
 
-				if (friend.city) {
-					parts += ' ' + friend.city.title; // Россия Москва
-				}
+			if (friend.city) {
+				place += ' ' + friend.city.title;
+			}
+			return place;
+		})
 
-				return parts;
-			})
-			// у каждого элемента массива (Россия Москва) узнаем координаты
 			.map(geocode);
 
-		// т.к. geocode возвращает Promise, мы получили массив с Promise и теперь все их разрешаем
 		return Promise.all(promises);
 	})
 
-	// Для каждого элемента массива (а это координаты) ставим метку на катру
 	.then(coords => {
-		const placemarks = coords.map(coord => {
-			return new ymaps.Placemark(coord, {}, { preset: 'islands#blueHomeCircleIcon' })
+	const resultList = filteredFriends
+
+		// transformation filtered friends list & add list of coordinates
+		.map(friend => {
+			return {
+				place: coords.shift(),
+				name: friend.first_name + ' ' + friend.last_name,
+				photo: friend.photo_100,
+				status: friend.online
+			};
 		});
-		clusterer.add(placemarks);
+
+
+	// set placemarks on the map
+		for (let i = 0, l = resultList.length; i < l; i++) {
+			let point = resultList[i];
+			clusterer.add(new ymaps.Placemark(
+				point.place, {
+					balloonContentHeader: point.name,
+					// balloonContentBody: point.photo,
+					// balloonContentFooter: point.status
+
+				}
+
+			));
+
+		}
+
 	})
 
-	// Ловим ошибки
+	// catch errors
 	.catch(e => alert('Ошибка: ' + e.message));
