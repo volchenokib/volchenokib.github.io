@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 46" width="45" height="46">
+	<defs>
+		<image width="45" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAuCAMAAACLUGAGAAAAAXNSR0IB2cksfwAAAdRQTFRFAAAAALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/Qsf/jd3/qOX/kN7/TMr/ArT/PMX/RMf/AbP/puT/4vb/Ucv/FLn/u+v/////4Pb/wOz/3vX/zPD/UMv/yO//+v7/V83/BbT/yu//6fj/QMb/1fL/r+f/dNb/BrX/ref//v//luD/DLf/bNP//P7/NcP/E7n/vOv/+P3/wu3/9vz/7Pn/i9z/PsX/w+3/s+j/D7f/OsT/9fz/ouP/itz/5/j/A7T/Hrz/kd7/7vr/iNz/8vv/xO3/Crb/g9r/YtD/N8P/Xs//SMj/atP//f7/C7b/ruf/y+//c9X/GLr/gtr/h9v/tOn/we3/LMD/eNf/Cbb/jN3/NsP/ddb/BLT/3fX/vuz/3PX/G7v/fdj/Jb7/5vj/cdX/J7//Tsr/JL7/0vL/5Pf/VMz/uOr/e9j/Wc7/Gbr/n+L/CLX/tun/Fbn/k9//8/v/9Pz/ZNH/4/f/zvD/1/P/Ib3/Ws7/hdv/mOD/neL/kt//ALP/ALP/ALP/ALP/ALP/ALP/ALP/ALP/UZMJGQAAAJx0Uk5TADie4v7/9sd2DAaY5j4Brvk9aOUKA3E8w2rxeP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wuZP5/g+vDIcLbFngAAAaRJREFUeJxjYAACRiZmFla8gI2dg5MBDLi4CSiFAB5ekGI+fmLUAoGAIFC1EJGKWVmFRRhEhYlWzSrGIE68YlYJBkkSVEsxSJOgmnWEq5aRlZNXUGRVUsapWkVVTR3C0tDU0tbR1dLT09LSx6VaQcvA0AjEMDYxVQBSZuYWllryuFTL6lpZ29jasbLaOzhCRJyctV1wqVZ1ZVW0dHP38PTyhor4+Pr541IdEBjEyhocEqqlFQYV8Q2PiMSlOkorGuzqmNg4qEh8QiIrLtVJySmprCggzRSFi6I63dQYVTFrRiZu1VkJ2aiKc9zScKtmzbVJd0LmR2tl4VGdp5UfjMQtKCxixaNaJbm4BIlbahODTzVrmWl5RSWMU+UQwIpbdXVNramWQ1I1lFvnkhGER3WFTX1DYxOU09RsY93Cikd1iblNq1EbiFWg1N7RWaGCrhjV3VZdBlpa3T3JvYZapgFNGGox805f/4SJkybbxxRgUTsk8jz9VZNWfpNWN4jyEK9ajKQ6bQop9SW4euWaSlxdPA1SdTMwTp8xE7/SWbNh9TwJAADRdWhPXfb9SAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="say hello">
+		<g id="social buttons">
+			<use id="Twitter" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
