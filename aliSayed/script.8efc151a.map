@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/script.js"],"names":["console","log"],"mappings":";;;AAEA,aAFA,QAAA,gBAEAA,QAAQC,IAAI","file":"script.8efc151a.map","sourceRoot":"..","sourcesContent":["import \"./style.scss\";\r\n\r\nconsole.log(\"Hello world!\");\r\n"]}

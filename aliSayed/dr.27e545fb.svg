@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 46" width="45" height="46">
+	<defs>
+		<image width="45" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAuCAMAAACLUGAGAAAAAXNSR0IB2cksfwAAAhxQTFRFAAAA5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU6V6h7oO28ZXB8ZzF8I697HOt506X51CZ8ZnD++Lu/////vj798Hb626q7oC1/Ovz9LHS6Vuf51Ka6V2g7Xyz9K/Q/fH3//7/9r3Y6FOb86XK+trq7Xyy/Ony8qPJ/vr8/Ofx6mKj86XL9bXU5kyW7HSu//3+9KzP74q76Vyg7oG19rrX9LDR622q50yX+tfn/fD2+trp51GZ/Oz0+tnp+t3r5kqV98Xd7oG27X6z62up7oK28JG/+t7s/Obw+Mvh+dPl/e/27Xmx//7+/e3174y86mem50+Y7Hav/fL386bL++Tv98Pc74289K3P8JPA8p3G98Lb/vn8/Orz//z99bjV86TK++Pv98fe6mOk8qDH86nN/vT56FSb8ZjD9bTT98jf+M7i+Mrg9r7Z9bbU51Oa5kmU6WGj9KvO+tzq5kmV74u76WCi6Fme6mWl7oa4/vn76Fed+M3i86jM+dTm8ZrE7HGs+dDk98be506Y8JXB98Td63Cr6min+dbn5kuW6FWc7Xiw/fP46V+h7Xqx+tjo8ZvF6Fqe7oS39bfV9bnW502X8JK//vX562+r5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiU5kiUSlZY0AAAALR0Uk5TAApxxPT/46c8PuWfCDf3tQPfd2rsvkfqbfB4//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/7eH4vKAMxu76pPOQyAAAAjpJREFUeJxjYGBgYGRiZmHFD9jYORgggJOLgFII4OYBKeblI0oxKyu/AAMDjyCRillZhRgYhIlWzCrCwyBKvGpWMQZxElRLMEiSoFqK3qqlZWTl5BUUiVGtpKyiCgZq6hoEVWtqqapqa+jo6ukbGBoZm+BXbWpkZm6hogSxxdLK2gafaltVO3tWB0cnKNdZVcsFt2pXIzcQ5e7oAeZ6enkb+tjjUu3r5+8Jpi0CAoGUYpBRcIiqHC7VckahEEaYajgra2iEoywra5ChLw7VkVEwVnRMrHpcfCyQ5aGagF11oqozhJGUrK6qmpIKMTQtHbvqDNXMrKxsgxwVR9XcvHwdqGhBHnbVhZAoLCq21E8qibOEipYaBWJVXVauVFGhC+XkGFZWVdfU1hXWqzZgN9uqEcZsao5RVTVsiTazjlM1asWquk21HcLoqM/PrUvzArOVai2wu7tTtQ1Md6V0Z/awVkL1WqtjV82a1gskGvtU+5uAtIvRBJDYRFiwYqieYARM0Qaq2pBA8JkEIid7T8GhWinPzHOqajOU12cFVOeqWsmKQzVrrOO03GmwgDFXnc46o3zmLJyqWZVV4/Rg7NmqU+fMxZe+WVmz41TMYWwt6/yieaz4VLPOt1ZdsHDioorOxUtyjZbqsuJXzbpsuQ8kz69YOgNNCnt50mEevrxt5SxMCbqXbHhUk1Z+ryJBtRgp9c5qHgaeNUSrFgJVrmuJVLxOgIS6eD0PpOrewLRxE36Vm9ewczKQDAC2N5W4fpnrswAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="say hello">
+		<g id="social buttons">
+			<use id="Dribbble" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
