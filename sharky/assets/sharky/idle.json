@@ -1,7 +1,7 @@
 {
   "frames": [
     {
-      "filename": "0.png",
+      "filename": "0.webp",
       "frame": { "x": 0, "y": 0, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -9,7 +9,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "1.png",
+      "filename": "1.webp",
       "frame": { "x": 407, "y": 0, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -17,7 +17,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "2.png",
+      "filename": "2.webp",
       "frame": { "x": 814, "y": 0, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -25,7 +25,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "3.png",
+      "filename": "3.webp",
       "frame": { "x": 1221, "y": 0, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -33,7 +33,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "4.png",
+      "filename": "4.webp",
       "frame": { "x": 1628, "y": 0, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -41,7 +41,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "5.png",
+      "filename": "5.webp",
       "frame": { "x": 0, "y": 500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -49,7 +49,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "6.png",
+      "filename": "6.webp",
       "frame": { "x": 407, "y": 500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -57,7 +57,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "7.png",
+      "filename": "7.webp",
       "frame": { "x": 814, "y": 500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -65,7 +65,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "8.png",
+      "filename": "8.webp",
       "frame": { "x": 1221, "y": 500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -73,7 +73,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "9.png",
+      "filename": "9.webp",
       "frame": { "x": 1628, "y": 500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -81,7 +81,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "10.png",
+      "filename": "10.webp",
       "frame": { "x": 0, "y": 1000, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -89,7 +89,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "11.png",
+      "filename": "11.webp",
       "frame": { "x": 407, "y": 1000, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -97,7 +97,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "12.png",
+      "filename": "12.webp",
       "frame": { "x": 814, "y": 1000, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -105,7 +105,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "13.png",
+      "filename": "13.webp",
       "frame": { "x": 1221, "y": 1000, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -113,7 +113,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "14.png",
+      "filename": "14.webp",
       "frame": { "x": 1628, "y": 1000, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -121,7 +121,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "15.png",
+      "filename": "15.webp",
       "frame": { "x": 0, "y": 1500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -129,7 +129,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "16.png",
+      "filename": "16.webp",
       "frame": { "x": 407, "y": 1500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -137,7 +137,7 @@
       "sourceSize": { "w": 407, "h": 500 }
     },
     {
-      "filename": "17.png",
+      "filename": "17.webp",
       "frame": { "x": 814, "y": 1500, "w": 407, "h": 500 },
       "rotated": false,
       "trimmed": false,
@@ -148,7 +148,7 @@
   "meta": {
     "app": "https://www.codeandweb.com/texturepacker",
     "version": "1.0",
-    "image": "sharkyIdle.png",
+    "image": "sharkyIdle.webp",
     "format": "RGBA8888",
     "size": { "w": 2035, "h": 2000 },
     "scale": "1",
